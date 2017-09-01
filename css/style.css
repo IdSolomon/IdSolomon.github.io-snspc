@@ -1,0 +1,320 @@
+body, html {
+    height: 100%;
+}
+
+/* Navigation */
+#mainNav {
+    background-color: #000000;
+    font-family: "Lato", "Times", sans-serif;
+    font-size: 150%;
+    padding: 1%;
+    -webkit-box-shadow: 0 8px 6px -6px #000000;
+    -moz-box-shadow: 0 8px 6px -6px #000000;
+    box-shadow: 0 8px 6px -6px #000000;    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand > img {
+    position: absolute;
+    display: block;
+    height: 60%;
+    width: auto;
+    margin-top: -1%;
+}
+
+/* Header Section */
+.jumbotron {
+    background-image: url("../img/ChicagoTowers.jpg");
+    background-attachment: fixed;
+    background-color: #000000;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .mainTitle, .secondTitle {
+    width: auto;
+    text-align: center;
+    font-family: "Lato", "Times", sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 250px;
+    text-shadow: 8px 8px 5px #000000;
+}
+
+.mainTitle {
+    padding: 40px 0 0 0;
+}
+
+.secondTitle {
+    letter-spacing: 2px;
+}
+
+div.jumbotron .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+div.jumbotron .scroll-down .btn {
+    border-style: none;
+}
+
+/* About Section */
+.about {
+    padding: 100px 0;
+    display: block;
+}
+
+.about h1, p {
+    font-family: "Lato", "Times", sans-serif;
+    text-shadow: 4px 4px 5px #007FFF;
+}
+
+.about h1 {
+    margin-top: -5%;
+    margin-bottom: 2%;
+    font-weight: 100;
+    font-size: 900%;
+    letter-spacing: 25px;
+}
+
+.about p {
+    margin-bottom: 5%;
+    font-size: 200%;
+    letter-spacing: 1px;
+}
+
+/* First Divider */
+.firstDivider {
+    background-image: url("../img/BlackBrick.jpg");
+    background-color: #000000;
+    background-attachment: fixed;
+    padding: 300px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.firstDivider blockquote {
+    font-family: "Lato", "Times", sans-serif;
+    text-shadow: 8px 8px 5px #000000;
+    font-size: 300%;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.firstDivider span.text-primary {
+    font-weight: 900;
+}
+
+.firstDivider blockquote small {
+    float: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 100px 0;
+    display: block;
+}
+
+.gallery h1 {
+    font-family: "Lato", "Times", sans-serif;
+}
+
+.gallery h1 {
+    margin-top: -5%;
+    margin-bottom: 2%;
+    font-weight: 100;
+    font-size: 900%;
+    letter-spacing: 25px;
+    text-shadow: 4px 4px 5px #007FFF;
+}
+
+.gallery div img {
+    width: 90%;
+    height: auto;
+    margin: 8%;
+    box-shadow: 4px 4px 5px #007FFF;
+    float: right;
+}
+
+/* Second Divider */
+.secondDivider {
+    background-image: url("../img/BlackBrick.jpg");
+    background-color: #000000;
+    background-attachment: fixed;
+    padding: 300px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.secondDivider blockquote {
+    font-family: "Lato", "Times", sans-serif;
+    text-shadow: 8px 8px 5px #000000;
+    font-size: 300%;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.secondDivider span.text-primary {
+    font-weight: 900;
+}
+
+.secondDivider blockquote small {
+    float: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Contact Section */
+.contact {
+    padding: 100px 0;
+    display: block;
+}
+
+.contact h1 {
+    font-family: "Lato", "Times", sans-serif;
+    margin-top: -5%;
+    margin-bottom: 2%;
+    font-weight: 100;
+    font-size: 900%;
+    letter-spacing: 25px;
+    text-shadow: 4px 4px 5px #007FFF;
+}
+
+.contact form {
+    font-family: "Lato", "Times", sans-serif;
+}
+
+.contact .form-control {
+    box-shadow: 4px 4px 5px #007FFF;
+}
+
+.contact #submit {
+    box-shadow: 4px 4px 5px #007FFF;
+}
+
+.contact textarea.form-control {
+    margin-top: 2%;
+}
+
+.contact div button {
+    float: right;
+    margin-top: 2%;
+    margin-right: 1.2%;
+    padding: 1% 8%;
+}
+
+/* Footer Section */
+.footer {
+    display: block;
+    background-color: #000000;
+}
+
+.footer i.fa:hover {
+    text-shadow: 1px 1px 10px #007FFF;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    /* Navigation */
+    .navbar-brand {
+        position: fixed;
+        height: 200px;
+    }
+    
+    #mainNav {
+        background-color: #000;
+    }
+    
+    .navbar-toggle {
+        width: auto;
+    }
+    
+    /* Header Section */
+    .jumbotron .mainTitle, .secondTitle {
+        width: auto;
+        text-align: center;
+        font-family: "Lato", "Times", sans-serif;
+        color: #FFFFFF;
+        font-weight: 100;
+        font-size: 100px;
+        text-shadow: 8px 8px 5px #000000;
+    }
+
+    .mainTitle {
+        padding: 40px 0 0 0;
+    }
+
+    .secondTitle {
+        letter-spacing: 2px;
+    }
+    
+    /* About Section */
+    .about h1 {
+        margin-top: -5%;
+        margin-bottom: 2%;
+        font-weight: 100;
+        font-size: 300%;
+        letter-spacing: 25px;
+    }
+
+    .about p {
+        margin-bottom: 5%;
+        font-size: 180%;
+        letter-spacing: 1px;
+    }
+    
+    /* Gallery Section */
+    .gallery h1 {
+        margin-top: -5%;
+        margin-bottom: 2%;
+        font-weight: 100;
+        font-size: 300%;
+        letter-spacing: 25px;
+        text-shadow: 4px 4px 5px #007FFF;
+    }
+    
+    /* Contact Section */
+    .contact h1 {
+        font-family: "Lato", "Times", sans-serif;
+        margin-top: -5%;
+        margin-bottom: 8%;
+        font-weight: 100;
+        font-size: 300%;
+        letter-spacing: 25px;
+        text-shadow: 4px 4px 5px #007FFF;
+    }
+    
+    .contact .form-control {
+        margin-bottom: 4%;
+    }
+    
+    .contact div button {
+        float: right;
+        margin-top: 1%;
+        margin-right: 3.4%;
+        padding: 1% 8%;
+    }
+}
